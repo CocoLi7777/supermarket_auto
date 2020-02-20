@@ -7,7 +7,7 @@ describe('Page visit', function() {
           })
         cy.visit(Cypress.env('ROOT'))
         cy.get('#login_place').then((body) => {
-            if(!body.find('leesam').length > 0) {
+            if(!body.find(Cypress.env('USERNAME')).length > 0) {
                 cy.get('#login_place').contains('登陆').click()
                 cy.get('#telTxtLogin').type(Cypress.env('USERNAME'))
                 cy.get('#passShow').type(Cypress.env('PASSWORD'))

@@ -1,5 +1,5 @@
 {
-  "name": "yeeyi-automation",
+  "name": "toiletpaper-automation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^3.8.1"
+    "cypress": "^3.8.3"
   }
 }

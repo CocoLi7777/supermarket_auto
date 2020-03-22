@@ -1,1 +1,7 @@
-{}
+{
+  "env": {
+    "COLESROOT": "https://www.coles.com.au/",
+    "WWSROOT": "https://www.woolworths.com.au/",
+    "CONTENT": "toilet tissue"
+  }
+}
